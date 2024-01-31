@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "where-are-you",
+	"version": "${version}",
+	"name": "WhereAreYou",
+	"description": "",
+	"authors": [
+		"SkyDynamic"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/SkyDynamic/WhereAreYou"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/whereareyou/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.skydynamic.where_are_you.WhereAreYou"
+		]
+	},
+	"mixins": [
+		"whereisyou.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
